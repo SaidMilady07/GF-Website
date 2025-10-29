@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <video id="backgroundVideo" autoplay muted loop playsinline>
+        <source src="Lope2.mp4" type="video/mp4">
+        <!-- Tambahkan source lain jika perlu, misalnya WebM -->
+    </video>
+
+     <audio id="backgroundAudio" autoplay loop>
+        <source src="Musik.ogg" type="audio/ogg">
+        <!-- Tambahkan source lain jika perlu, misalnya OGG -->
+        Browser Anda tidak mendukung audio.
+    </audio>
+
+    <div id="page1" class="page active">
+        <h1>Halowww, PawPaww</h1>
+        <img src="Kucing.png" alt="Gambar Romantis">
+        <p>Masukkan angka rahasia untuk melanjutkan:</p>
+        <div class="display" id="numberDisplay"></div>
+        <div class="keypad">
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="clearDisplay()">Clear</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="checkNumber()">Lanjut</button>
+        </div>
+    </div>
+   <div id="page2" class="page">
+        <div class="message">
+            <h2>Ucapan dari Aku</h2>
+            <p id="animatedText"></p> <!-- Teks animasi akan muncul di sini -->
+        </div>
+        <button onclick="nextPage(3)">Lanjut ke Halaman Terakhir</button>
+    </div>
+    
+    <div id="page3" class="page">
+        <h2>Sesuatu</h2>
+          <a href="https://heyzine.com/flip-book/e6bb060796.html" target="_blank">
+    <button>Klik Saya</button>
+  </a>
+
+        <p>coba pencet tombol di atas</p>
+    </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
