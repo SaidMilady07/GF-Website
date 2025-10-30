@@ -27,7 +27,7 @@
             }
         }
 let i = 0;
-        const txt = 'Haloow Sayangkuh. Ciee ulangtahun! umurmu sekarang berarti 20 tahun ya. anjer udah tuaaa:v selamat ulang tahun ya semoga panjang umur, sehat selalu, bahagia terus, dan semua cita-citamu tercapai. aku sayang kamuuuuuu. jangan tinggalin aku yaa T_T'; // Teks yang akan dianimasikand
+        const txt = 'Haloow Sayangkuh. Ciee ulangtahun! umurmu sekarang berarti 19 tahun ya. anjer udah tuaaa:v selamat ulang tahun ya semoga panjang umur, sehat selalu, bahagia terus, dan semua cita-citamu tercapai. aku sayang kamuuuuuu.'; // Teks yang akan dianimasikand
         const speed = 50; // Kecepatan (ms per karakter)
         
         function startTypewriter() {
@@ -42,4 +42,5 @@ let i = 0;
                 i++;
                 setTimeout(typeWriter, speed);
             }
+
         }
